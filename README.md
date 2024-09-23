@@ -41,3 +41,21 @@ Este proyecto está desarrollado en Python y requiere las siguientes librerías:
     pip install -r requirements.txt
 ```
 
+## Uso
+
+Para iniciar la captura y análisis de tráfico, ejecuta el script principal desde la línea de comandos con privilegios de superusuario:
+
+```bash
+    sudo $(which python3) main.py
+```
+
+## Estructura del Código
+
+1. main.py: Script principal que inicia la captura y procesamiento de paquetes.
+2. TrafficCapture (Clase): Encapsula la lógica de captura de paquetes utilizando Scapy.
+3. TrafficProcessor (Clase): Maneja la vectorización de datos y la extracción de características dinámicas.
+4. requirements.txt: Archivo que lista las dependencias necesarias (si aplica).
+
+
+
+
