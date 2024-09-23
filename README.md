@@ -32,8 +32,12 @@ Este proyecto está desarrollado en Python y requiere las siguientes librerías:
 
 2. **Crear un Entorno Virtual (Opcional pero Recomendado)**
 ```bash
-python3 -m venv env
-source env/bin/activate
+    python3 -m venv env
+    source env/bin/activate
+```
 
-
+3. **Instalar las Dependencias**
+```bash
+    pip install -r requirements.txt
+```
 
